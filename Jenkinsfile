@@ -1,8 +1,4 @@
-node {
-    stage('checkout') {
-        git 'https://github.com/NikitaKumar/jenkins2-course-spring-boot.git'
-    }
-    
+node {    
     def project_path="spring-boot-samples/spring-boot-sample-atmosphere"
     
     dir(project_path) {        
